@@ -1,0 +1,75 @@
+// .button-container{
+//     // display: flex;
+//     align-items: center;
+//     height: 100vh;
+//     width: 60%;
+//     float: center;
+//     margin-top: 50px;
+//     padding: 80px;
+
+//     .row{
+        
+//         align-items: center;
+//         .card{
+//             .card-body{
+//                 .b{
+//                     display: flex;
+//                     //   margin-left: 350px;
+//                 }
+//                 .btn { 
+                  
+//                     background-color: #005f69 ;
+//                     border: 2px solid #005f69; 
+//                     &:hover {
+//                         background-color: #088391;
+//                         color: black;
+//                         border: 2px solid  #005f69;
+//                     }
+//                 }
+//         }
+            
+//             }
+//         }
+//    }
+   
+.button-container{
+    height: 100vh;
+   width: 100%;
+    overflow-x: hidden;  
+    background-size: "contain";
+    background-repeat:no-repeat; 
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+   .row{  
+       .card{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center; 
+       margin-top: 200px; 
+       margin-left: 350px;
+       margin-right: 350px;
+       background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+           .card-body{
+               .btn {                 
+                   background-color: #005f69 ;
+                   border: 2px solid #005f69; 
+                   border-radius: 10px;
+                   &:hover {
+                       background-color: white;
+                       color: black;
+                       border: 2px solid  #005f69;
+                   }
+               }
+       }
+           
+           }
+       }
+  }
+
